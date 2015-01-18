@@ -1,6 +1,6 @@
 function opt=trainingOptSet
 opt.loadFeatureOrNot = true;
-opt.usedDatasetFeaPath = './waveData.mat'; %where you put your feature mat file
+opt.usedDatasetFeaPath = './waveData.mat'; %where you put your feature mat file, the same file as the featureExtractOptSet put in opt.featurePath
 % combinedList = combineFeatureName(opt.featureExtractOpt.featureList,2);
 % opt.trainingOpt.usedFeature=[opt.featureExtractOpt.featureList combinedList];
 opt.usedFeature = 'MFCC';
