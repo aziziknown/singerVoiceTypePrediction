@@ -12,6 +12,9 @@ Matlab 7.11 R2011b, on Win7 32 bit
 4. voicebox toolbox http://www.ee.ic.ac.uk/hp/staff/dmb/voicebox/voicebox.html
 5. pmtk toolbox https://github.com/probml/pmtk3
 
+### Example dataset
+* the singing phonation mode dataset http://www.doc.gold.ac.uk/~mas02pp/phonation_modes/
+
 ### Setup: 
 1. change the ```toolboxPath.root``` in ```vtpInit.m``` to the root path of your downloaded toolboxes. 
 2. change the path settings:```datasetDir```,```featurePath``` in ```featureExtractOptSet.m```, and ```usedDatasetFeaPath``` in ```trainingOptSet.m``` and ```testingOptSet.m```. 
