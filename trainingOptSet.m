@@ -1,11 +1,6 @@
 function opt=trainingOptSet
 opt.loadFeatureOrNot = true;
-% opt.usedDatasetFeaDir = {'D:\azz\music_audio_research\datasets\phonation_mode_dataset\2_1_trimmed\output\feature\','D:\Dropbox\Digimax\sing_voice\recordings\known\phonation_output\feature\'};
-% opt.usedDatasetFeaPath = '.\waveData.mat';
-% opt.usedDatasetFeaPath = 'D:\Dropbox\Digimax\sing_voice\recordings\filntu\waveData3sec.mat';
-% opt.usedDatasetFeaPath = 'D:\Dropbox\Digimax\sing_voice\recordings\known\tutor\waveData3sec.mat';
-opt.usedDatasetFeaPath = 'D:\Dropbox\2others_tmp\jang\singerVoiceTypePrediction\waveData.mat';
-% opt.usedDatasetFeaPath = 'C:\Users\known\Documents\Dropbox\2others_tmp\jang\singerVoiceTypePrediction\waveData.mat';
+opt.usedDatasetFeaPath = './waveData.mat'; %where you put your feature mat file
 % combinedList = combineFeatureName(opt.featureExtractOpt.featureList,2);
 % opt.trainingOpt.usedFeature=[opt.featureExtractOpt.featureList combinedList];
 opt.usedFeature = 'MFCC';

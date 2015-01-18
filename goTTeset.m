@@ -1,5 +1,5 @@
 vtpInit;
-outputRoot = 'D:\azz\music_audio_research\datasets\phonation_mode_dataset\2_1_trimmed\output\6th\';
+outputRoot = './result/';%place to put results
 % baseline = 'Cross5-GMM-MFCC-26';
 % baseline = 'Cross5-HMM-MFCC-26';
 baseline = 'Cross5-GMM-GlottalMFCCLPCDan-26';

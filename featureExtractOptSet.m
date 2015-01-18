@@ -1,12 +1,6 @@
 function opt = featureExtractOptSet
-% 	opt.datasetDir = 'D:\dataSet\polina\2_1_trimmed\cut\';
-% opt.datasetDir = 'D:\azz\music_audio_research\datasets\phonation_mode_dataset\2_1_trimmed\cut\';
-% opt.datasetDir = 'D:\Dropbox\Digimax\sing_voice\recordings\known\phonation\origin\';
-%     opt.datasetDir = 'D:\Dropbox\Digimax\sing_voice\recordings\known\tutor\2sec\';
-    opt.datasetDir = 'D:\Dropbox\Digimax\sing_voice\recordings\known\tutor\3sec\';
-% 	opt.featurePath = '.\waveData.mat';
-%     opt.featurePath = 'D:\Dropbox\Digimax\sing_voice\recordings\known\tutor\waveData2sec.mat';
-    opt.featurePath = 'D:\Dropbox\Digimax\sing_voice\recordings\known\tutor\waveData3sec.mat';
+    opt.datasetDir = './recordings/';% where you put your wav files, the filenames should be in the following formet: noteName_vowels_phonationModeOrType
+    opt.featurePath = './waveData.mat'; %where you put your feature mat file
 	opt.featureList={'MFCC','LPCDan','LSP','GlottalMFCCGLOAT','GlottalMFCCSTRAIGHT','GlottalMFCCLPCDan','GlottalMFCCLPCvoicebox'};
 	opt.frameRate = 50;
 	% opt.LPCOrder = 120;

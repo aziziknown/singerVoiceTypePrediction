@@ -7,7 +7,6 @@ if nargin>=1
 else
 	opt.loadFeatureOrNot = true;
 	opt.usedDatasetFeaPath = '.\waveData.mat';
-% 	opt.usedDatasetFeaPath = 'D:\Dropbox\2others_tmp\jang\singerVoiceTypePrediction\waveData.mat';
 	opt.usedFeature = 'MFCC';
 	opt.dimReduceOpt = dimReduceOptSet;
 end
