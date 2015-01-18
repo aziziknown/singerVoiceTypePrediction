@@ -3,8 +3,7 @@ A simple code for clssify singer's voice type, via HMM,GMM.
 Various dimension reduction methods can be also used before training.
 
 ### Tested Environment (not required)
-Matlab 7.11 R2011b
-Win7 32 bit
+Matlab 7.11 R2011b, on Win7 32 bit
 
 ### Required Toolboxes
 1. utitlity toolbox http://mirlab.org/jang/matlab/toolbox/utility
