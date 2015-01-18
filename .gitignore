@@ -1,0 +1,12 @@
+*.asv
+.DS_Store
+*.bak
+*.jar
+*.class
+*.txt
+*.mat
+*.p
+*.au
+*.mp3
+*.MP3
+*.wav
