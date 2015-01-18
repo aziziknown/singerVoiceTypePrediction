@@ -23,4 +23,4 @@ Matlab 7.11 R2011b, on Win7 32 bit
   * goTraining: run only training
   * goTesting: run only testing
   * goAll:run all the above with all possible combination of parameters
-  * goTTest: script for calculate t-test
+  * goTTest: script for run t-test
